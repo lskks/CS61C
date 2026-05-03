@@ -79,6 +79,9 @@
       <a name="label" val="clk"/>
       <a name="locked" val="true"/>
     </comp>
+    <comp lib="0" loc="(170,170)" name="Constant">
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="0" loc="(480,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -95,20 +98,22 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="2" loc="(270,180)" name="Adder"/>
-    <comp lib="3" loc="(280,210)" name="Register">
+    <comp lib="2" loc="(250,180)" name="Adder"/>
+    <comp lib="3" loc="(290,210)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <wire from="(100,210)" to="(190,210)"/>
-    <wire from="(190,210)" to="(190,280)"/>
-    <wire from="(190,280)" to="(280,280)"/>
-    <wire from="(200,170)" to="(230,170)"/>
-    <wire from="(220,190)" to="(220,350)"/>
-    <wire from="(220,190)" to="(230,190)"/>
-    <wire from="(220,350)" to="(410,350)"/>
+    <wire from="(100,210)" to="(100,280)"/>
+    <wire from="(100,280)" to="(290,280)"/>
+    <wire from="(150,190)" to="(150,340)"/>
+    <wire from="(150,190)" to="(210,190)"/>
+    <wire from="(150,340)" to="(400,340)"/>
+    <wire from="(170,170)" to="(210,170)"/>
+    <wire from="(250,180)" to="(270,180)"/>
+    <wire from="(270,180)" to="(270,240)"/>
     <wire from="(270,180)" to="(480,180)"/>
-    <wire from="(340,240)" to="(410,240)"/>
-    <wire from="(410,240)" to="(410,350)"/>
-    <wire from="(410,240)" to="(480,240)"/>
+    <wire from="(270,240)" to="(290,240)"/>
+    <wire from="(350,240)" to="(400,240)"/>
+    <wire from="(400,240)" to="(400,340)"/>
+    <wire from="(400,240)" to="(480,240)"/>
   </circuit>
 </project>
